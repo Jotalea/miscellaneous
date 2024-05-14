@@ -1,0 +1,55 @@
+Operating Systems Iceberg
+
+Level 1: Very known operating systems. (95% of people use them)
+- macOS: Apple's operating system, known for its intuitive interface and focus on usage. It is exclusive to Apple's Mac(intosh)books.
+- Windows: Dominant operating system by Microsoft, with a lot of available software and hardware compatibility. It is used by most computers in the world.
+- iOS: Apple's operating system for mobile devices, exclusive to iPhones and a few other Apple devices.
+- Android: Google's operating system for mobile devices, known for being used in most phones and tablets in the world. It also has some variations for other devices such as Smart TVs, Smart Watches, etc.
+
+Level 2: Less known operating systems, but they are easy to use. (2.5% of people use them)
+- Ubuntu: The most popular Linux-based distribution (distro). It is known for being easy to use and lightweight compared to windows.
+- Zorin OS: While not as known as Ubuntu, Zorin OS is a Linux distro based on Ubuntu, and it is very easy to install and set up, looks really well and has a low resource consume compared to windows.
+- Linux Mint: This Linux distro is focused on older hardware that cannot handle newer OS versions such as windows 11. It has very low resource consume.
+- Pop!_OS: This Linux distro is based on Ubuntu, and it's focused on gaming and performance.
+
+Level 3: (1.5% of people use them)
+- Debian
+- fedora
+- OpenSUSE
+- CentOS
+- Endeavouros: "i use arch bt.. *gets hit with a metal pipe*". Based on Arch, but it is easier to install.
+
+Level 4: (0.4% of people use them)
+- Arch: Mostly known for being hard to install and for the sentence "i use arch btw"
+- Manjaro: "i use arch bt.. *gets hit with a wooden stick*"
+- freeBSD
+- Void Linux
+- Artix
+
+Level 5: (0.09% of people use them)
+- Gentoo: It has to be compiled to use it. There are no (official) ISO files for it, so that's why it's hard to install.
+- NixOS
+- Serenity OS: It has to be compiled from a single GitHub repo. Any pre-compiled ISO for it would get discontinued pretty fast, since it changes a lot very quickly.
+(from now on, the content will be in spanish for any reason)
+- BeOS: Sistema operativo multimedia de Be Inc., conocido por su interfaz intuitiva y enfoque en la multimedia.
+- ReactOS: Sistema operativo de código abierto compatible con Windows, que tiene como objetivo proporcionar una alternativa libre a Windows.
+- Haiku: Sistema operativo de código abierto basado en BeOS, conocido por su interfaz intuitiva y enfoque en la multimedia.
+
+Level 6: (0.009% of people use them)
+- Temple OS: It is a legendary operating system, originally made by a single person, with it's own programming language (Holy C). Sadly, the author passed away at (need more research).
+- OS/2: Sistema operativo de IBM que compitió con Windows en la década de 1990, conocido por su estabilidad y rendimiento.
+- Oberon: Sistema operativo basado en el lenguaje de programación Oberon-2, conocido por su enfoque en la simplicidad y la corrección.
+- Minix: Sistema operativo educativo creado por Andrew Tanenbaum, utilizado como base para otros sistemas operativos como Linux.
+- Qix: Sistema operativo experimental basado en el lenguaje de programación Forth, conocido por su enfoque en la eficiencia y la portabilidad.
+- Agoric OS: Sistema operativo basado en el lenguaje de programación Agoric, diseñado para facilitar la creación de mercados descentralizados.
+- Redox: Sistema operativo de código abierto escrito desde cero, con un enfoque en la seguridad, la modularidad y la portabilidad.
+- OS/360: Sistema operativo mainframe de IBM que dominó el mercado en la década de 1960, conocido por su arquitectura robusta y escalable.
+
+Level 7: (0.001% of people use them)
+- FreeRTOS: Sistema operativo de tiempo real (RTOS) liviano y de código abierto, utilizado en microcontroladores y dispositivos embebidos.
+- VxWorks: RTOS comercial robusto y confiable, utilizado en sistemas críticos como dispositivos médicos y aeroespaciales.
+- QNX: RTOS de alto rendimiento y escalabilidad, utilizado en sistemas de infoentretenimiento automotrices y dispositivos industriales.
+- Android Things: Sistema operativo para dispositivos de Internet de las cosas (IoT) basado en Android, que permite crear dispositivos conectados inteligentes.
+- Tizen: Sistema operativo para dispositivos inteligentes, desarrollado por Samsung y utilizado en televisores, relojes inteligentes y electrodomésticos.
+- Wear OS: Sistema operativo para relojes inteligentes, basado en Android y desarrollado por Google.
+- WebOS: Sistema operativo para televisores inteligentes, desarrollado por LG y conocido por su interfaz de usuario intuitiva.
