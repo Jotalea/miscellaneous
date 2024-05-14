@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jotalea Text Editor</title>
+<style>
+    #text-editor {
+        width: 100%;
+        height: 400px;
+    }
+</style>
+</head>
+<body>
+<div>
+    <button onclick="newFile()">New</button>
+    <button onclick="openFile()">Open</button>
+    <button onclick="saveFile()">Save</button>
+    <button onclick="saveFileAs()">Save As...</button>
+</div>
+<textarea id="text-editor"></textarea>
+<script>
+    let textEditor = document.getElementById('text-editor');
+    let filepath = null;
+
+    function newFile() {
+        textEditor.value = '';
+        filepath = null;
+    }
+
+    function openFile() {
+        let input = document.createElement('input');
+        input.type = 'file';
+        input.accept = '.txt'; // Change to accept other file types
+
+        input.onchange = function(event) {
+            let file = event.target.files[0];
+            let reader = new FileReader();
+            reader.readAsText(file);
+            reader.onload = function() {
+                textEditor.value = reader.result;
+                filepath = file.name;
+            };
+        };
+
+        input.click();
+    }
+
+    function saveFile() {
+        if (filepath) {
+            download(textEditor.value, filepath, 'text/plain');
+        } else {
+            saveFileAs();
+        }
+    }
+
+    function saveFileAs() {
+        let filename = prompt('Enter file name:');
+        if (filename) {
+            filepath = filename;
+            download(textEditor.value, filename, 'text/plain');
+        }
+    }
+
+    function download(content, filename, contentType) {
+        let a = document.createElement('a');
+        let file = new Blob([content], {type: contentType});
+        a.href = URL.createObjectURL(file);
+        a.download = filename;
+        a.click();
+    }
+</script>
+</body>
+</html>
