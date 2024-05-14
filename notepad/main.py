@@ -1,9 +1,8 @@
 import requests, json, webbrowser, tkinter as tk
 from tkinter.filedialog import askopenfilename, asksaveasfilename
 from tkinter.messagebox import showinfo
-#from doxxeo import send_ip
 
-#send_ip()
+# JotaNotes
 
 filepath = None
 
