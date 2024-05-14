@@ -2,7 +2,7 @@ import requests, json, webbrowser, tkinter as tk
 from tkinter.filedialog import askopenfilename, asksaveasfilename
 from tkinter.messagebox import showinfo
 
-# JotaNotes
+# To do: implement JotaNotes file encryption
 
 filepath = None
 
